@@ -15,7 +15,7 @@ import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
 import logo from '../Resources/images/logo.png';
 
-const pages = ['Products', 'Pricing', 'Blog'];
+const pages = ['Products', 'Pricing', 'Blog','services'];
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 
 
@@ -84,12 +84,12 @@ return (
           </Menu>
         </Box>
         
-        <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
+        <Box sx={{marginLeft :"50rem", flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
           {pages.map((page) => (
             <Button
               key={page}
               onClick={handleCloseNavMenu}
-              sx={{ my: 2, color: 'white', display: 'block' }}
+              sx={{ my: 1,mx  :2, color: 'black', display: 'block' }}
             >
               {page}
             </Button>
