@@ -13,9 +13,9 @@ import Button from '@mui/material/Button';
 import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
-import logo from '../Resources/images/logo.png';
+import logo from '../../Resources/images/logo.png';
 
-const pages = ['Products', 'Pricing', 'Blog','services'];
+const pages = ['Create Event', 'Join', 'Sign in', 'Blogs'];
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 
 
